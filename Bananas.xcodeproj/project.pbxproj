@@ -417,6 +417,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -656,6 +657,7 @@
 				GCC_PREFIX_HEADER = "Bananas OSX/Bananas-Prefix.pch";
 				INFOPLIST_FILE = "Bananas OSX/Bananas-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-Bananas-OSX";
 				PRODUCT_NAME = Bananas;
 				PROVISIONING_PROFILE = "";
@@ -681,6 +683,7 @@
 				GCC_PREFIX_HEADER = "Bananas OSX/Bananas-Prefix.pch";
 				INFOPLIST_FILE = "Bananas OSX/Bananas-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-Bananas-OSX";
 				PRODUCT_NAME = Bananas;
 				PROVISIONING_PROFILE = "";
@@ -707,7 +710,7 @@
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Bananas iOS/Bananas iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -729,7 +732,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "Bananas iOS/Bananas iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
